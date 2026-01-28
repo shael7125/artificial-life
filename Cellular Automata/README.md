@@ -1,0 +1,8 @@
+In the nervous system, the excitation of the one of the brain's neurons is dictated by the excitation of the neurons surrounding it. This is true in both healthy and epileptic brains. Neurons are also by nature always in one of three discrete states: inactive, actively firing, and cooling down (called refractory period). Because of this, the nervous system can be simulated very well by cellular automata. Cellular automata are discrete computational models consisting of a grid of cells, where each cell exists in one of these discrete states. The cells are allowed to evolve simultaneously over time based on a series of simple, local rules informed by their current state and the state of neighboring cells.
+
+Using this model, the difference between healthy and epileptic neurons can be simplified to a couple parameters.
+1) Firing threshold, which lowers in epilepsy patients
+2) Refractory period (cooldown), which shortens in epilepsy
+3) Spontaneous firing, which is higher in epilepsy (triggers)
+
+In this simple program, the user selects whether they want to simulate healthy or epileptic behavior. The user also selects how fast they want each timestep/evolution to be. Despite the obvious visual differences between the two behaviors, the same rules are followed. The only thing that changes are the values of the three parameters mentioned above. The program also accurately simulates/predicts the real-world behaviors observed using EEG.
