@@ -15,10 +15,9 @@ simulator:
   # n_sims: 16
   n_sims: 4
   n_iterations: 10
-  # sim_steps: 1000
-  sim_steps: 200
+  sim_steps: 500
   # learning_steps: 40
-  learning_steps: 10
+  learning_steps: 25
   dt: 3e-3
   eps: 1e-5
   springA: 0.1
